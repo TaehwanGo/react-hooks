@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Collection of sexy React Hooks ready to install with NPM
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] useTitle : react document의 title을 몇개의 hooks와 함께 바꿈
+- [x] useInput : input form
+- [x] useBeforeLeave(usePageLeave) : 유저가 page를 벗어나는 시점을 발견하고 함수를 실행
+- [x] useClick : 누군가 element를 클릭하는 시점을 발견
+- [x] useFadeIn : 어떤 element든 상관없이 애니메이션을 element안으로 서서히 사라지게 만듦
+- [x] useHover : 마우스 올라간 것을 감지
+- [x] useNetwork : online 또는 offline 상태를 감지
+- [x] useTabs : 웹사이트에 메뉴 또는 무엇이든 tab을 사용하기 쉽게 만들어줌
+- [x] usePreventLeave : 유저가 변경사항이나 무엇이든간에 저장하지 않고 페이지를 벗어나갈 때 확인 하는 것
+- [x] useConfirm : usePreventLeave와 비슷하지만 몇가지 기능이 추가 됨
+- [x] useScroll : 스크롤을 사용할 때를 감지해 알려줌
+- [x] useFullscreen : 어떤 element든 fullscreen으로 만들거나 일반화면으로 돌아갈 수 있게 함
+- [x] useNotification : notification API를 사용할때 유저에게 알림을 보내줌
+- [x] useAxios : axios의 wrapper 
